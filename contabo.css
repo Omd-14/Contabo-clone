@@ -1,0 +1,137 @@
+body {
+    background-color:gainsboro;
+    text-align: center;
+    justify-content: center;
+}
+div.card{
+  margin: 0 auto;
+}
+span.card{
+  width: 65rem; 
+  margin-left: 150px;
+}
+span.main{
+  width: 22rem;
+   height:22rem;
+}
+button.badge{
+  font-size:25px; 
+  border-radius:20px;
+   color: white;
+    border-color: white; 
+    height:50px; 
+    width:18rem;
+}
+h5.os{
+  text-align: left; 
+  font-size:medium;
+}
+h4.value{
+  text-align:left;
+   font-size:40px;
+}
+h4.new{
+  text-align: left;
+  font-size: small;
+}
+ul.lst{
+  text-align: left; 
+  font-size:larger;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+  }
+li.cardlist {
+    display: block;
+    background-image: url(yellow-checkmark.svg);
+    background-repeat: no-repeat; 
+    background-position:left;
+    height: 48px;
+    padding-left:20px;
+    padding-top: 5px;
+  }
+  img{
+    height:100px;
+    width:100px;
+  }
+img.abc{
+    height:50px;
+    width:50px;
+  }
+img.bucket{
+   height:400px;
+    width:400px;
+}
+div.osuc{
+  text-align: left;
+}
+div.main{
+  align-self: center;
+}
+div.comment{
+  font-family: Segoe UI;
+}
+button.carousel-control-next,
+button.carousel-control-prev {
+  background-color:white; 
+  color:black;
+}
+.carousel-button {
+  /* Set the desired color for the arrow */
+  color: red;
+}
+
+.arrow {
+  /* Adjust the size and style of the arrow */
+  border:solid;
+  color: blue;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(140deg);
+}
+.arrow1 {
+  /* Adjust the size and style of the arrow */
+  border:solid;
+  color: blue;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(315deg);
+}
+
+
+.progress {
+  
+  justify-content: flex-start;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  
+  }
+.progress-bar{
+  
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  
+  border-radius: 100px;
+  }
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 68%; }
+}
+span.mig{
+;
+}
